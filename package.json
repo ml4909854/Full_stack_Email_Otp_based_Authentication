@@ -1,0 +1,22 @@
+{
+  "name": "full_stack_email_otp_based_authentication",
+  "version": "1.0.0",
+  "description": "A secure Node.js-based authentication system using One-Time Password (OTP) sent via email. This project allows users to verify their identity through a time-limited OTP sent to their registered email address",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.1",
+    "nodemailer": "^7.0.3",
+    "nodemon": "^3.1.10"
+  }
+}
